@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Scenarios.Top_Deals">
+        <methods>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="initializeWebDriver"/>
+          <include name="TopDeals"/>
+          <include name="resultTest"/>
+          <include name="startTest"/>
+          <include name="navigateSite"/>
+        </methods>
+      </class> <!-- Scenarios.Top_Deals -->
+      <class name="Scenarios.Flight_Booking">
+        <methods>
+          <include name="flight_booking"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="initializeWebDriver"/>
+          <include name="resultTest"/>
+          <include name="startTest"/>
+          <include name="navigateSite"/>
+        </methods>
+      </class> <!-- Scenarios.Flight_Booking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
